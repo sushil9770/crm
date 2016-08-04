@@ -11,7 +11,7 @@ public class StaticController {
 	
 	@RequestMapping(value="/crm")
 	public String redirect() {
-		return "redirect:crm/static/final.htm";
+		return "index.html";
 	}
 
 }
